@@ -16,6 +16,12 @@ This project replicates the decision-making matrix used by the National Institut
 * **Automated Decisioning:** Implemented SQL logic to categorize treatment pathways as 'Highly Cost-Effective', 'Review Required', or 'Rejected' based on the standard £20,000 per QALY threshold.
 * **Executive Visualization:** Designed a cost-effectiveness scatter plot that maps intervention performance against national efficiency benchmarks to facilitate rapid, evidence-based decision-making.
 
+### 📁 Repository Navigation
+
+* [`hta_icer_calculation.sql`](hta_icer_calculation.sql): Contains the primary BigQuery SQL logic for joining clinical and cost datasets to calculate the ICER and apply NICE decision-making thresholds.
+* [`NICE_Cost_Effectiveness_Data.csv`](NICE_Cost_Effectiveness_Data.csv): The processed dataset used to generate the dashboard visualizations.
+* [`NICE_Dashboard_Screenshot.png`](NICE_Dashboard_Screenshot.png): A visual reference of the final Power BI cost-effectiveness report.
+
 ## 📈 Key Findings
 * The new clinical intervention achieves a superior health outcome with a total ICER of **£4,073 per QALY**.
 * Because this ratio falls significantly below the £20,000 threshold, the analysis provides a clear business case for funding approval and national implementation.
