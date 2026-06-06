@@ -1,0 +1,2 @@
+new_treatment_cost,standard_care_cost,incremental_cost,new_treatment_qaly,standard_care_qaly,incremental_qaly,icer_per_qaly,nice_recommendation
+12962.5,5700.0,7262.5,3.612,1.8290000000000002,1.783,4073.1912507010657,Highly Cost-Effective (Approve)
